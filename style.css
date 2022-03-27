@@ -83,26 +83,26 @@ body {
   transform: translate(-50%, -50%);
   background-image: url(images/intro-seq-1.png);
   background-size: cover;
-  animation: slider 15s infinite linear;
+  animation: slider 25s infinite linear;
 }
 
 @keyframes slider {
   0% {
     background-image: url(images/intro-seq-1.png);
   }
-  20% {
+  18% {
     background-image: url(images/intro-seq-2.png);
   }
   35% {
     background-image: url(images/intro-seq-3.png);
   }
-  50% {
+  52% {
     background-image: url(images/intro-seq-4.png);
   }
-  75% {
+  67% {
     background-image: url(images/intro-seq-5.png);
   }
-  87% {
+  83% {
     background-image: url(images/intro-seq-6.png);
   }
   100% {
@@ -686,10 +686,10 @@ body {
   display: flex;
 }
 .section7 img#item63 {
-  width: 25%;
-  height: 55%;
+  width: 35%;
+  height: 65%;
   margin-top: 18%;
-  margin-left: 978px;
+  margin-right: -430px;
   position: absolute;
 }
 .section7 img#item64 {
